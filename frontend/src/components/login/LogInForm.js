@@ -6,7 +6,7 @@ const LogInForm = () => {
 
   return (
     <div className="form-container" style={{ display: 'block', 
-                  width: 700, 
+                  width: 600, 
                   padding: 50, 
                   }}>
         <Form>

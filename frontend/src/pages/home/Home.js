@@ -1,11 +1,14 @@
 import "./Home.css";
 import LogInForm from "../../components/login/LogInForm";
+import SignUpForm from "../../components/signup/SignUpForm";
+
 
 const Home = () => {
 
   return (
-      <LogInForm />
-
+    <div>
+      Homepage
+    </div>
   )  
 }
 
