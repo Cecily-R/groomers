@@ -25,7 +25,7 @@ const SignUpForm = () => {
               <Form.Control type="name" placeholder="Name" />
           </Form.Group>
 
-          <Form.Group className="text-center" controlId="formBasicCheckbox">
+          <Form.Group className="text-center" controlId="Checkbox">
             <Form.Check inline
               type="checkbox"
               label="Groomer"
@@ -36,7 +36,8 @@ const SignUpForm = () => {
             />
           </Form.Group>
           
-          <div className="text-center" style={{ padding: 20 }}>
+          <div className='text-center'style={{ padding: 20,
+                     }}>
             <Button variant="outline-success" type="submit">
               Submit
             </Button>
