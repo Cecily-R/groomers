@@ -11,7 +11,6 @@ const GroomerSnapShot = () => {
       <Card.Title>Groomer Name</Card.Title>
       <Card.Body>
         <Card.Text>Groomer Rating</Card.Text>
-        <Card.Text>Groomer User Distance</Card.Text>
       </Card.Body>
     </Card>
   );

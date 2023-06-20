@@ -10,13 +10,8 @@ const Feed = () => {
 
   return(
     <>
-      <h2>Services near you</h2>
+      <h2 className="title">Featured Groomers </h2>
       <Container>
-        <Row>
-          <GroomerSnapShot />
-          <GroomerSnapShot />
-          <GroomerSnapShot />
-        </Row>
         <Row>
           <GroomerSnapShot />
           <GroomerSnapShot />
