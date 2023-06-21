@@ -4,10 +4,10 @@ import SignUpForm from './components/signup/SignUpForm'
 import { Routes,
          Route } from 'react-router-dom';
 
-function RouteNames () {
+function RouteNames() {
   return (
     <Routes>
-      <Route path='/' element={<Home/>} />
+      <Route path='/' element={<Home />} />
       <Route path='/login' element={<LogInForm />}/>
       <Route path='/signup' element={<SignUpForm />}/>
     </Routes>
