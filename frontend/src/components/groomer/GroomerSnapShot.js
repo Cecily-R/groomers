@@ -10,7 +10,7 @@ const GroomerSnapShot = (props) => {
       <Card.Img src={ holder }/>
       <Card.Title>{props.groomer.name}</Card.Title>
       <Card.Body>
-        <Card.Text>{props.groomer.rating}</Card.Text>
+        <Card.Text className="text-warning">{props.groomer.rating}</Card.Text>
         <Card.Text>{props.groomer.location}</Card.Text>
       </Card.Body>
     </Card>
