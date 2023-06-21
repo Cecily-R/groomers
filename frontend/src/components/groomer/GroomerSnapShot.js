@@ -5,7 +5,7 @@ import holder from '../../assets/holder.jpeg'
 const GroomerSnapShot = () => {
   return (
     <Card style={{ width: '25rem',
-                   height: '28rem',
+                   height: '25rem',
                 }}>
       <Card.Img src={ holder }/>
       <Card.Title>Groomer Name</Card.Title>
