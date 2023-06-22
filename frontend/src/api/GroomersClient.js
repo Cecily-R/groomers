@@ -13,10 +13,25 @@ class GroomersClient {
       .then((data) => {
         setGroomers(data);
       })
-      // .catch((err) => {
-      //   console.log(err.message);
-      // });
+      .catch((err) => {
+        console.log(err.message);
+      });
   };
+
+  fetchSingleGroomer = (setGroomer) => {
+    const URL = this.baseURL + "groomers/" + "{groomer.id}"
+
+    return fetch(URL)
+      .then(response => {
+          return response.json()
+      })
+      .then((data) => {
+        setGroomer(data);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }
 };
 
 export default GroomersClient;

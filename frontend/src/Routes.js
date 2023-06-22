@@ -6,13 +6,13 @@ import GroomerListing from './pages/groomer/GroomerListing'
 import { Routes,
          Route } from 'react-router-dom';
 
-function RouteNames(props) {
+function RouteNames() {
   return (
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/login' element={<LogInForm />}/>
       <Route path='/signup' element={<SignUpForm />}/>
-      <Route path='/groomers/{props.groomer.id}' element={<GroomerListing />}/>
+      <Route path='/groomers/:id' element={<GroomerListing />}/>
     </Routes>
   )
 };

@@ -5,3 +5,14 @@ h2.title {
 .card {
   margin: 1%;
 }
+
+div.groomers-link {
+  width: fit-content;
+}
+
+
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

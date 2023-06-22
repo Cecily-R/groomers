@@ -3,9 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import GroomersClient from '../../api/GroomersClient';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'
 
 import "./Feed.css"
 import React from 'react';
+
 
 const Feed = () => {
   const [groomers, setGroomers] = useState([]);
@@ -21,7 +23,11 @@ const Feed = () => {
       <Container>
         <Row>
           {groomers.map((groomer) => (
-            <GroomerSnapShot key={groomer.id} groomer={groomer} />
+            <div className='groomers-link'>
+              <Link to={`groomers/${groomer.id}`} className='link'>
+                <GroomerSnapShot key={groomer.id} groomer={groomer}/>
+              </Link>
+            </div>
           ))}
         </Row>
       </Container>
