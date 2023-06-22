@@ -24,7 +24,7 @@ const Feed = () => {
         <Row>
           {groomers.map((groomer) => (
             <div className='groomers-link'>
-              <Link to={`groomers/${groomer.id}`} className='link'>
+              <Link to={`groomers/${groomer.id}`} key={groomer.id} className='link'>
                 <GroomerSnapShot key={groomer.id} groomer={groomer}/>
               </Link>
             </div>

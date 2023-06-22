@@ -2,15 +2,21 @@ h2.title {
  margin: 2rem 0rem 2rem 4.5rem;
 }
 
-.card {
-  margin: 1%;
+div.card-title.h5 {
+  margin-top: 1rem;
 }
 
 div.groomers-link {
   width: fit-content;
 }
 
+div.card {
+  margin-bottom: 3rem;
+}
 
+.card-img {
+  margin: 0;
+}
 
 .link {
   text-decoration: none;

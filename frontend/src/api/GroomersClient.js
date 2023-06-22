@@ -18,8 +18,8 @@ class GroomersClient {
       });
   };
 
-  fetchSingleGroomer = (setGroomer) => {
-    const URL = this.baseURL + "groomers/" + "{groomer.id}"
+  fetchSingleGroomer = (groomerId, setGroomer) => {
+    const URL = this.baseURL + "groomers/" + `${groomerId}`
 
     return fetch(URL)
       .then(response => {
